@@ -1,0 +1,76 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*..................................Welcome Slides Section.......................*/
+/*Slider*/
+.welcome-area{
+	/*position: relative;
+	top: 20%;*/
+	padding-top: 40px;
+	position: relative;
+	z-index: 1;
+	margin-bottom: 0;
+}
+.owl-dots{
+	display: none;
+}
+.bg-img{
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 80vh;
+	position: relative;
+	top: 1%;
+}
+.welcome-content {
+	background: rgb(18, 16, 82, 0.55);
+    padding: 10px 10px;
+	color: #fff;
+	max-width: 700px;
+	height:  auto !important;
+	position: relative;
+	top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+
+}
+
+.welcome-content-icdl {
+	background: rgb(18, 16, 82, 0.75);
+	color: #fff;
+	width: 60%;
+	height:  40vh !important;
+	position: absolute !important;
+	top: 25%;
+	right: 0;
+	border-radius: 50px;
+	padding:20px !important;
+}
+.welcome-content h2, .welcome-content-icdl h2 {
+	font-size: 1.3rem;
+}
+.welcome-content h5, .welcome-content-icdl h5 {
+	font-size: 1rem;
+}
+.welcome-content .btn, .welcome-content-icdl .btn{
+	background: #EE992F;
+	padding: 5px 20px;
+	border-radius: 30px;
+	color: #fff;
+	/*transform: rotate(20deg);*/
+}
+
+@media screen and (max-width: 850px){
+	.bg-img{
+		height: 50vh;
+	}
+	.welcome-content{
+	width: 90%;
+	height: auto;
+	padding: 10px 5px;
+}
+}

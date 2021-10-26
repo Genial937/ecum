@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+    font-family: 'Poppins', sans-serif !important;
+    background: #eff3f8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carousel-inner img {
+    height: 80vh;
+}
+
+@media screen and (max-width: 960px) {
+    .carousel-inner img {
+        height: 65vh;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .carousel-inner img {
+        height: 40vh;
+    }
+}
+
+.section-two {
+    padding: 30px 0;
+    background: #fff;
+}
+
+.title {
+    color: #000000;
+}
+
+.line {
+    width: 70px;
+    border: 1px solid #FF4040;
+}
+
+.section-one p {
+    color: #000;
+}
+
+.section-two p {
+    color: #000;
+}
+
+.section-two ul li {
+    color: #000;
+}
+
+.section-three {
+    padding: 60px 0;
+    /* background: #58AA78; */
+    background: #f1f1f1;
+}
+
+.section-three .focus-area {
+    padding: 15px 0;
+}
+
+.section-three .d-block {
+    max-height: 42vh;
+}
+
+@media screen and (max-width: 760px) {
+    .section-three .d-block {
+        max-height: 24vh;
+    }
+    .core{
+        padding: 5px 15px;
+    }
+    .section-five img{
+        width: 100%;
+        max-height: 180px;
+    }
+}
+
+.section-three .content-one {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.section-three .links {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.section-three .links ul {
+    list-style: none;
+}
+
+.section-three .links ul li {
+    margin: 20px 0;
+}
+
+.section-three .links ul li a {
+    text-decoration: none;
+    color: #FFF094;
+    background: #014728;
+    padding: 6px 15px;
+    border-radius: 25px;
+    transition: 1s;
+}
+
+.section-three .links ul li a:hover {
+    transform: scale(1.1);
+}
+
+.section-four {
+    width: 100%;
+}
+
+.section-four .content-box {
+    background: #373735;
+    padding: 20px 40px;
+}
+
+.section-four .content-box .title, .section-four .content-box p {
+    color: #fff;
+}
+
+.section-four ul{
+    list-style: none;
+}
+
+.section-four .img-box {
+    background: linear-gradient(rgba(88, 170, 120, .85), rgba(88, 170, 120, .85)), url('../images/18.jfif');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    
+}
+
+.section-five{
+    padding: 40px 0;
+}
+
+footer .upper-section {
+    background: #141618;
+    padding: 40px 0;
+}
+
+footer .upper-section h2 {
+    color: #58AA78;
+}
+
+footer .upper-section p {
+    color: #fff;
+}
+
+footer .upper-section .form-control {
+    border-radius: 0 !important;
+    background: #1D1D1C03;
+    border: 1px solid #fff;
+}
+
+footer .upper-section .form-control:focus {
+    background: #FF40401A;
+}
+
+footer .upper-section .btn {
+    border-radius: 0 !important;
+    background: #fff;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    padding: 7px 16px;
+}
+
+footer .lower-section {
+    background: #0D0D1F;
+    padding: 30px 0;
+}
+
+footer .lower-section h5 {
+    color: #fff;
+}
+
+footer .lower-section ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+footer .lower-section ul li {
+    margin: 0 10px;
+}
+
+footer .lower-section ul li a {
+    color: #fff;
+}
+
+footer .lower-section p {
+    color: #fff;
+}
+
+/* About us */
+
+.about-us {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+/* Our Partners */
+
+.slick-slide {
+    margin: 0 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+}
+
+.slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block
+}
+
+.slick-slide {
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+
+.slick-slide img {
+    display: block;
+}
+
+.slick-initialized .slick-slide {
+    display: block;
+}
+
+.copy {
+    padding-top: 250px;
+}
+
+
+/* -------------------------------------------------ABout Us Page -------------------------------------- */
+.about{
+    padding: 70px 20px;
+    background: linear-gradient(rgba(55, 55, 53, 0.55), rgba(55, 55, 53, 0.55)),url('../images/1.jfif');
+    background-attachment: fixed;
+}
+
+@media screen and (max-width: 760px){
+    .about{
+        padding: 60px 0;
+    }
+}
+
+.about .head-section{
+    color: #FF4040;
+    padding: 40px 0;
+}
